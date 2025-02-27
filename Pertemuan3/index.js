@@ -1,23 +1,20 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const dashboard = require('./dashboard');
 
-app.get('/', (req, res) => {
-    res.send('Get Data!');
-});
-
-//create middleware for logging using methode url and date
-const middleware = (req, res, next) => {
+const logger = (req, res, next) => {
     console.log(`${req.method} ${req.url} - ${new Date().toISOString()}`);
     next();
 };
 
-app.use(middleware);
+app.use(logger);
 
 
+app.get('/', (req, res) => {
+    res.send('Homepage');
+});
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-}
-);
+app.use('/dashboard', require('./dashboard'));
 
+
+app.listen(3000, () => console.log('Server running on port 3000'));

@@ -1,0 +1,225 @@
+<svg width="1172" height="462" viewBox="0 0 879 346.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(4,1174) scale(1)">
+<title>G</title>
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-1174 304,-1174 304,4 -4,4"></polygon>
+<!-- users -->
+<g id="node1" class="node" style="opacity: 1;">
+<title>users</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-144 4,-162 296,-162 296,-144 4,-144"></polygon>
+<polygon fill="none" stroke="white" points="4,-144 4,-162 296,-162 296,-144 4,-144"></polygon>
+<text text-anchor="start" x="7" y="-151" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">users</text>
+<polygon fill="#404040" stroke="transparent" points="4,-126 4,-144 296,-144 296,-126 4,-126"></polygon>
+<polygon fill="none" stroke="white" points="4,-126 4,-144 296,-144 296,-126 4,-126"></polygon>
+<text text-anchor="start" x="7" y="-133" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-133" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-133" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-108 4,-126 296,-126 296,-108 4,-108"></polygon>
+<polygon fill="none" stroke="white" points="4,-108 4,-126 296,-126 296,-108 4,-108"></polygon>
+<text text-anchor="start" x="7" y="-114" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;name VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-90 4,-108 296,-108 296,-90 4,-90"></polygon>
+<polygon fill="none" stroke="white" points="4,-90 4,-108 296,-108 296,-90 4,-90"></polygon>
+<text text-anchor="start" x="7" y="-96" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email VARCHAR(100) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-72 4,-90 296,-90 296,-72 4,-72"></polygon>
+<polygon fill="none" stroke="white" points="4,-72 4,-90 296,-90 296,-72 4,-72"></polygon>
+<text text-anchor="start" x="7" y="-78" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;password VARCHAR(255) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-54 4,-72 296,-72 296,-54 4,-54"></polygon>
+<polygon fill="none" stroke="white" points="4,-54 4,-72 296,-72 296,-54 4,-54"></polygon>
+<text text-anchor="start" x="7" y="-60" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;role ENUM('admin', 'guru', 'siswa') NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-36 4,-54 296,-54 296,-36 4,-36"></polygon>
+<polygon fill="none" stroke="white" points="4,-36 4,-54 296,-54 296,-36 4,-36"></polygon>
+<text text-anchor="start" x="6.83" y="-42" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="4,-18 4,-36 296,-36 296,-18 4,-18"></polygon>
+<polygon fill="none" stroke="white" points="4,-18 4,-36 296,-36 296,-18 4,-18"></polygon>
+<text text-anchor="start" x="7" y="-24" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="4,0 4,-18 296,-18 296,0 4,0"></polygon>
+<polygon fill="none" stroke="white" points="4,0 4,-18 296,-18 296,0 4,0"></polygon>
+<text text-anchor="start" x="7" y="-6" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+<!-- siswa -->
+<g id="node2" class="node" style="opacity: 1;">
+<title>siswa</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-306 4,-324 296,-324 296,-306 4,-306"></polygon>
+<polygon fill="none" stroke="white" points="4,-306 4,-324 296,-324 296,-306 4,-306"></polygon>
+<text text-anchor="start" x="7" y="-313" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">siswa</text>
+<polygon fill="#404040" stroke="transparent" points="4,-288 4,-306 296,-306 296,-288 4,-288"></polygon>
+<polygon fill="none" stroke="white" points="4,-288 4,-306 296,-306 296,-288 4,-288"></polygon>
+<text text-anchor="start" x="7" y="-295" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-295" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-295" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-270 4,-288 296,-288 296,-270 4,-270"></polygon>
+<polygon fill="none" stroke="white" points="4,-270 4,-288 296,-288 296,-270 4,-270"></polygon>
+<text text-anchor="start" x="7" y="-276" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nama VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-252 4,-270 296,-270 296,-252 4,-252"></polygon>
+<polygon fill="none" stroke="white" points="4,-252 4,-270 296,-270 296,-252 4,-252"></polygon>
+<text text-anchor="start" x="7" y="-258" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nisn VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-234 4,-252 296,-252 296,-234 4,-234"></polygon>
+<polygon fill="none" stroke="white" points="4,-234 4,-252 296,-252 296,-234 4,-234"></polygon>
+<text text-anchor="start" x="7" y="-240" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alamat VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-216 4,-234 296,-234 296,-216 4,-216"></polygon>
+<polygon fill="none" stroke="white" points="4,-216 4,-234 296,-234 296,-216 4,-216"></polygon>
+<text text-anchor="start" x="6.83" y="-222" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="4,-198 4,-216 296,-216 296,-198 4,-198"></polygon>
+<polygon fill="none" stroke="white" points="4,-198 4,-216 296,-216 296,-198 4,-198"></polygon>
+<text text-anchor="start" x="7" y="-204" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="4,-180 4,-198 296,-198 296,-180 4,-180"></polygon>
+<polygon fill="none" stroke="white" points="4,-180 4,-198 296,-198 296,-180 4,-180"></polygon>
+<text text-anchor="start" x="7" y="-186" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+<!-- guru -->
+<g id="node3" class="node" style="opacity: 1;">
+<title>guru</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-468 4,-486 296,-486 296,-468 4,-468"></polygon>
+<polygon fill="none" stroke="white" points="4,-468 4,-486 296,-486 296,-468 4,-468"></polygon>
+<text text-anchor="start" x="7" y="-475" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">guru</text>
+<polygon fill="#404040" stroke="transparent" points="4,-450 4,-468 296,-468 296,-450 4,-450"></polygon>
+<polygon fill="none" stroke="white" points="4,-450 4,-468 296,-468 296,-450 4,-450"></polygon>
+<text text-anchor="start" x="7" y="-457" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-457" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-457" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-432 4,-450 296,-450 296,-432 4,-432"></polygon>
+<polygon fill="none" stroke="white" points="4,-432 4,-450 296,-450 296,-432 4,-432"></polygon>
+<text text-anchor="start" x="7" y="-438" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nama VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-414 4,-432 296,-432 296,-414 4,-414"></polygon>
+<polygon fill="none" stroke="white" points="4,-414 4,-432 296,-432 296,-414 4,-414"></polygon>
+<text text-anchor="start" x="7" y="-420" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nip VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-396 4,-414 296,-414 296,-396 4,-396"></polygon>
+<polygon fill="none" stroke="white" points="4,-396 4,-414 296,-414 296,-396 4,-396"></polygon>
+<text text-anchor="start" x="7" y="-402" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alamat VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-378 4,-396 296,-396 296,-378 4,-378"></polygon>
+<polygon fill="none" stroke="white" points="4,-378 4,-396 296,-396 296,-378 4,-378"></polygon>
+<text text-anchor="start" x="6.83" y="-384" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="4,-360 4,-378 296,-378 296,-360 4,-360"></polygon>
+<polygon fill="none" stroke="white" points="4,-360 4,-378 296,-378 296,-360 4,-360"></polygon>
+<text text-anchor="start" x="7" y="-366" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="4,-342 4,-360 296,-360 296,-342 4,-342"></polygon>
+<polygon fill="none" stroke="white" points="4,-342 4,-360 296,-360 296,-342 4,-342"></polygon>
+<text text-anchor="start" x="7" y="-348" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+<!-- kelas -->
+<g id="node4" class="node" style="opacity: 1;">
+<title>kelas</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-594 4,-612 296,-612 296,-594 4,-594"></polygon>
+<polygon fill="none" stroke="white" points="4,-594 4,-612 296,-612 296,-594 4,-594"></polygon>
+<text text-anchor="start" x="7" y="-601" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">kelas</text>
+<polygon fill="#404040" stroke="transparent" points="4,-576 4,-594 296,-594 296,-576 4,-576"></polygon>
+<polygon fill="none" stroke="white" points="4,-576 4,-594 296,-594 296,-576 4,-576"></polygon>
+<text text-anchor="start" x="7" y="-583" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-583" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-583" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-558 4,-576 296,-576 296,-558 4,-558"></polygon>
+<polygon fill="none" stroke="white" points="4,-558 4,-576 296,-576 296,-558 4,-558"></polygon>
+<text text-anchor="start" x="7" y="-564" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nama VARCHAR(100) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-540 4,-558 296,-558 296,-540 4,-540"></polygon>
+<polygon fill="none" stroke="white" points="4,-540 4,-558 296,-558 296,-540 4,-540"></polygon>
+<text text-anchor="start" x="6.83" y="-546" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="4,-522 4,-540 296,-540 296,-522 4,-522"></polygon>
+<polygon fill="none" stroke="white" points="4,-522 4,-540 296,-540 296,-522 4,-522"></polygon>
+<text text-anchor="start" x="7" y="-528" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="4,-504 4,-522 296,-522 296,-504 4,-504"></polygon>
+<polygon fill="none" stroke="white" points="4,-504 4,-522 296,-522 296,-504 4,-504"></polygon>
+<text text-anchor="start" x="7" y="-510" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+<!-- jadwal -->
+<g id="node5" class="node" style="opacity: 1;">
+<title>jadwal</title>
+<polygon fill="#232d95" stroke="transparent" points="0,-792 0,-810 300,-810 300,-792 0,-792"></polygon>
+<polygon fill="none" stroke="white" points="0,-792 0,-810 300,-810 300,-792 0,-792"></polygon>
+<text text-anchor="start" x="3" y="-799" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">jadwal</text>
+<polygon fill="#404040" stroke="transparent" points="0,-774 0,-792 300,-792 300,-774 0,-774"></polygon>
+<polygon fill="none" stroke="white" points="0,-774 0,-792 300,-792 300,-774 0,-774"></polygon>
+<text text-anchor="start" x="3" y="-781" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="18.28" y="-781" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-781" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="0,-756 0,-774 300,-774 300,-756 0,-756"></polygon>
+<polygon fill="none" stroke="white" points="0,-756 0,-774 300,-774 300,-756 0,-756"></polygon>
+<text text-anchor="start" x="3" y="-762" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_kelas INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0,-738 0,-756 300,-756 300,-738 0,-738"></polygon>
+<polygon fill="none" stroke="white" points="0,-738 0,-756 300,-756 300,-738 0,-738"></polygon>
+<text text-anchor="start" x="3" y="-744" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_mapel INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0,-720 0,-738 300,-738 300,-720 0,-720"></polygon>
+<polygon fill="none" stroke="white" points="0,-720 0,-738 300,-738 300,-720 0,-720"></polygon>
+<text text-anchor="start" x="3" y="-726" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_guru INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0,-702 0,-720 300,-720 300,-702 0,-702"></polygon>
+<polygon fill="none" stroke="white" points="0,-702 0,-720 300,-720 300,-702 0,-702"></polygon>
+<text text-anchor="start" x="2.98" y="-708" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hari ENUM('senin', 'selasa', 'rabu', 'kamis', 'jumat') NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0,-684 0,-702 300,-702 300,-684 0,-684"></polygon>
+<polygon fill="none" stroke="white" points="0,-684 0,-702 300,-702 300,-684 0,-684"></polygon>
+<text text-anchor="start" x="3" y="-690" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;jam TIME NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0,-666 0,-684 300,-684 300,-666 0,-666"></polygon>
+<polygon fill="none" stroke="white" points="0,-666 0,-684 300,-684 300,-666 0,-666"></polygon>
+<text text-anchor="start" x="3" y="-672" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="0,-648 0,-666 300,-666 300,-648 0,-648"></polygon>
+<polygon fill="none" stroke="white" points="0,-648 0,-666 300,-666 300,-648 0,-648"></polygon>
+<text text-anchor="start" x="3" y="-654" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="0,-630 0,-648 300,-648 300,-630 0,-630"></polygon>
+<polygon fill="none" stroke="white" points="0,-630 0,-648 300,-648 300,-630 0,-630"></polygon>
+<text text-anchor="start" x="3" y="-636" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+<!-- nilai -->
+<g id="node6" class="node" style="opacity: 1;">
+<title>nilai</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-972 4,-990 296,-990 296,-972 4,-972"></polygon>
+<polygon fill="none" stroke="white" points="4,-972 4,-990 296,-990 296,-972 4,-972"></polygon>
+<text text-anchor="start" x="7" y="-979" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">nilai</text>
+<polygon fill="#404040" stroke="transparent" points="4,-954 4,-972 296,-972 296,-954 4,-954"></polygon>
+<polygon fill="none" stroke="white" points="4,-954 4,-972 296,-972 296,-954 4,-954"></polygon>
+<text text-anchor="start" x="7" y="-961" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-961" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-961" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-936 4,-954 296,-954 296,-936 4,-936"></polygon>
+<polygon fill="none" stroke="white" points="4,-936 4,-954 296,-954 296,-936 4,-936"></polygon>
+<text text-anchor="start" x="7" y="-942" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_siswa INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-918 4,-936 296,-936 296,-918 4,-918"></polygon>
+<polygon fill="none" stroke="white" points="4,-918 4,-936 296,-936 296,-918 4,-918"></polygon>
+<text text-anchor="start" x="7" y="-924" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_mapel INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-900 4,-918 296,-918 296,-900 4,-900"></polygon>
+<polygon fill="none" stroke="white" points="4,-900 4,-918 296,-918 296,-900 4,-900"></polygon>
+<text text-anchor="start" x="7" y="-906" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_kelas INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-882 4,-900 296,-900 296,-882 4,-882"></polygon>
+<polygon fill="none" stroke="white" points="4,-882 4,-900 296,-900 296,-882 4,-882"></polygon>
+<text text-anchor="start" x="7" y="-888" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nilai INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-864 4,-882 296,-882 296,-864 4,-864"></polygon>
+<polygon fill="none" stroke="white" points="4,-864 4,-882 296,-882 296,-864 4,-864"></polygon>
+<text text-anchor="start" x="6.83" y="-870" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="4,-846 4,-864 296,-864 296,-846 4,-846"></polygon>
+<polygon fill="none" stroke="white" points="4,-846 4,-864 296,-864 296,-846 4,-846"></polygon>
+<text text-anchor="start" x="7" y="-852" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="4,-828 4,-846 296,-846 296,-828 4,-828"></polygon>
+<polygon fill="none" stroke="white" points="4,-828 4,-846 296,-846 296,-828 4,-828"></polygon>
+<text text-anchor="start" x="7" y="-834" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+<!-- presensi -->
+<g id="node7" class="node" style="opacity: 1;">
+<title>presensi</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-1152 4,-1170 296,-1170 296,-1152 4,-1152"></polygon>
+<polygon fill="none" stroke="white" points="4,-1152 4,-1170 296,-1170 296,-1152 4,-1152"></polygon>
+<text text-anchor="start" x="7" y="-1159" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">presensi</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1134 4,-1152 296,-1152 296,-1134 4,-1134"></polygon>
+<polygon fill="none" stroke="white" points="4,-1134 4,-1152 296,-1152 296,-1134 4,-1134"></polygon>
+<text text-anchor="start" x="7" y="-1141" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-1141" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-1141" font-family="opensans" font-size="10.00" fill="white"> id INT AUTO_INCREMENT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1116 4,-1134 296,-1134 296,-1116 4,-1116"></polygon>
+<polygon fill="none" stroke="white" points="4,-1116 4,-1134 296,-1134 296,-1116 4,-1116"></polygon>
+<text text-anchor="start" x="7" y="-1122" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_siswa INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1098 4,-1116 296,-1116 296,-1098 4,-1098"></polygon>
+<polygon fill="none" stroke="white" points="4,-1098 4,-1116 296,-1116 296,-1098 4,-1098"></polygon>
+<text text-anchor="start" x="7" y="-1104" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id_kelas INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1080 4,-1098 296,-1098 296,-1080 4,-1080"></polygon>
+<polygon fill="none" stroke="white" points="4,-1080 4,-1098 296,-1098 296,-1080 4,-1080"></polygon>
+<text text-anchor="start" x="7" y="-1086" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tanggal DATE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1062 4,-1080 296,-1080 296,-1062 4,-1062"></polygon>
+<polygon fill="none" stroke="white" points="4,-1062 4,-1080 296,-1080 296,-1062 4,-1062"></polygon>
+<text text-anchor="start" x="7" y="-1068" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;status ENUM('hadir', 'izin', 'sakit', 'alfa') NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1044 4,-1062 296,-1062 296,-1044 4,-1044"></polygon>
+<polygon fill="none" stroke="white" points="4,-1044 4,-1062 296,-1062 296,-1044 4,-1044"></polygon>
+<text text-anchor="start" x="6.83" y="-1050" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1026 4,-1044 296,-1044 296,-1026 4,-1026"></polygon>
+<polygon fill="none" stroke="white" points="4,-1026 4,-1044 296,-1044 296,-1026 4,-1026"></polygon>
+<text text-anchor="start" x="7" y="-1032" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UPDATE</text>
+<polygon fill="#404040" stroke="transparent" points="4,-1008 4,-1026 296,-1026 296,-1008 4,-1008"></polygon>
+<polygon fill="none" stroke="white" points="4,-1008 4,-1026 296,-1026 296,-1008 4,-1008"></polygon>
+<text text-anchor="start" x="7" y="-1014" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CURRENT_TIMESTAMP</text>
+</g>
+</g>
+</svg>

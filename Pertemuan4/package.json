@@ -1,0 +1,27 @@
+{
+  "name": "pertemuan4",
+  "version": "1.0.0",
+  "description": "Project Pertemuan 4 Restfull Api",
+  "keywords": [
+    "resfull",
+    "api"
+  ],
+  "homepage": "https://github.com/limfiq/pengembanganbackend#readme",
+  "bugs": {
+    "url": "https://github.com/limfiq/pengembanganbackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limfiq/pengembanganbackend.git"
+  },
+  "license": "ISC",
+  "author": "limfiq",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
