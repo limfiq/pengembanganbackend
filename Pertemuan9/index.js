@@ -11,7 +11,5 @@ app.use(cookieParser());
 app.use(helmet());
 
 app.use('/api/auth', authRoutes);
-
 sequelize.sync().then(() => console.log("Database synced"));
-
 app.listen(3000, () => console.log("Server running on http://localhost:3000"));
