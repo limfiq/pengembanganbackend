@@ -6,4 +6,4 @@ const sequelize = new Sequelize('akademik', 'root', '', {
   dialect: 'mysql',
 });
 
-module.exports = { sequelize };
+module.exports = sequelize;

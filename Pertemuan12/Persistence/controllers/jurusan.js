@@ -3,7 +3,7 @@ const express = require('express');
 const { Sequelize } = require('sequelize');
 const redis = require('redis');
 const { sequelize } = require('../config/db');
-const Jurusan = require('../models/jurusan');
+const Jurusan = require('../models/jurusan').Jurusan || require('../models/jurusan');
 
 // Redis client
 const client = redis.createClient();
@@ -33,7 +33,7 @@ exports.getAllJurusan = async (req, res) => {
 exports.createJurusan = async (req, res) => {
     try {
         const { kode, nama_jurusan } = req.body;
-        const jurusan = await Jurusan.create({ kode, nama });
+        const jurusan = await Jurusan.create({ kode, nama_jurusan });
         await client.del('jurusan'); // clear cache
         res.status(201).json(jurusan);
     } catch (err) {

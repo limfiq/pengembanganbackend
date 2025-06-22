@@ -9,11 +9,6 @@ app.use('/api', routes); // Prefix route untuk semua endpoint
 const PORT = process.env.PORT || 3000;
 
 
-// Tes koneksi Sequelize
-sequelize.authenticate()
-    .then(() => console.log('Database connected!'))
-    .catch(err => console.error('Unable to connect to the database:', err));
-
 // Inisialisasi Redis
 const redisClient = redis.createClient();
 

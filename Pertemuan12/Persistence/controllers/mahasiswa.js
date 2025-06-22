@@ -1,8 +1,8 @@
-const db = require('../models/mahasiswa'); // Pastikan path sesuai struktur project Anda
+
+// const { sequelize } = require('../config/db');
+const Mahasiswa = require('../models/mahasiswa'); // Pastikan path sesuai struktur project Anda
 
 // controller/mahasiswa.js
-
-const Mahasiswa = db.mahasiswa;
 
 // Get all mahasiswa
 exports.getAllMahasiswa = async (req, res) => {
@@ -30,8 +30,8 @@ exports.getMahasiswaById = async (req, res) => {
 // Create new mahasiswa
 exports.createMahasiswa = async (req, res) => {
     try {
-        const { nim, nama } = req.body;
-        const mahasiswa = await Mahasiswa.create({ nim, nama });
+        const { nim, nama, jurusan } = req.body;
+        const mahasiswa = await Mahasiswa.create({ nim, nama, jurusan });
         res.status(201).json(mahasiswa);
     } catch (err) {
         res.status(400).json({ message: err.message });
