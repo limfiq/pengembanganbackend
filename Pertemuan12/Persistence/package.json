@@ -1,0 +1,30 @@
+{
+  "name": "persistence",
+  "version": "1.0.0",
+  "description": "Implementasi cache persistence",
+  "keywords": [
+    "cache",
+    "express"
+  ],
+  "homepage": "https://github.com/limfiq/pengembanganbackend#readme",
+  "bugs": {
+    "url": "https://github.com/limfiq/pengembanganbackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limfiq/pengembanganbackend.git"
+  },
+  "license": "ISC",
+  "author": "limfiq",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "redis": "^5.5.6",
+    "sequelize": "^6.37.7"
+  }
+}
