@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 
 const fs = require('fs');
@@ -41,3 +42,14 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
+=======
+const sequelize = require('../config/database');
+const Mahasiswa = require('./mahasiswa')(sequelize);
+const Matakuliah = require('./matakuliah')(sequelize);
+const RPS = require('./rps')(sequelize);
+
+Mahasiswa.belongsToMany(Matakuliah, { through: RPS, foreignKey: 'mahasiswa_id' });
+Matakuliah.belongsToMany(Mahasiswa, { through: RPS, foreignKey: 'matakuliah_id' });
+
+module.exports = { sequelize, Mahasiswa, Matakuliah, RPS };
+>>>>>>> bb84616a0770e5acd036db8b1cb7f2ab930d63bc
