@@ -1,0 +1,31 @@
+{
+  "name": "non-persistence",
+  "version": "1.0.0",
+  "description": "implementasi cache di ram",
+  "keywords": [
+    "cache",
+    "in",
+    "ram"
+  ],
+  "homepage": "https://github.com/limfiq/pengembanganbackend#readme",
+  "bugs": {
+    "url": "https://github.com/limfiq/pengembanganbackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limfiq/pengembanganbackend.git"
+  },
+  "license": "ISC",
+  "author": "limfiq",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
