@@ -2,8 +2,10 @@
 const express = require('express');
 const { body } = require('express-validator');
 const router = express.Router();
-const { register, login, logout } = require('../controllers/authController');
-const { protect, adminOnly } = require('../middlewares/authMiddleware');
+const { register, login, logout } = 
+require('../controllers/authController');
+const { protect, adminOnly } = 
+require('../middlewares/authMiddleware');
 
 router.post('/register',
   body('email').isEmail(),

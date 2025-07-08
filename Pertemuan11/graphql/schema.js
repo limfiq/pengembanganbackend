@@ -1,5 +1,6 @@
 const {
-  GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLList, GraphQLInt, GraphQLNonNull
+  GraphQLObjectType, GraphQLString, GraphQLSchema,
+  GraphQLList, GraphQLInt, GraphQLNonNull
 } = require('graphql');
 const { Mahasiswa, Matakuliah } = require('../models');
 const { Rps } = require('../models');

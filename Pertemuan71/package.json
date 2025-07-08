@@ -1,4 +1,19 @@
 {
+<<<<<<< HEAD
+  "name": "pertemuan71",
+  "version": "1.0.0",
+  "description": "ORM dengan Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "limfiq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+=======
   "name": "akademik-crud",
   "version": "1.0.0",
   "main": "index.js",
@@ -9,5 +24,6 @@
     "express": "^4.18.2",
     "mysql2": "^3.3.1",
     "sequelize": "^6.32.1"
+>>>>>>> bb84616a0770e5acd036db8b1cb7f2ab930d63bc
   }
 }
